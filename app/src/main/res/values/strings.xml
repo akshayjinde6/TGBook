@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">TG Book</string>
+
+    <string-array name="stu_class">
+        <item>
+            -- Select Class --
+        </item>
+        <item>
+            SE
+        </item>
+        <item>
+            TE
+        </item>
+        <item>
+            BE
+        </item>
+    </string-array>
+    <string-array name="stu_div">
+        <item>
+            -- Select Division --
+        </item>
+        <item>
+            A
+        </item>
+        <item>
+            B
+        </item>
+    </string-array>
+    <string-array name="stu_tg">
+        <item>
+            -- Select TG --
+        </item>
+        <item>
+            Prof. Mahesh Gosavi
+        </item>
+        <item>
+            Prof. Rohini Patil
+        </item>
+        <item>
+            Prof. Silkesha Thigale
+        </item>
+        <item>
+            Prof. Bhagyashri Patale
+        </item>
+        <item>
+            Prof. Prashant Abhonkar
+        </item>
+        <item>
+            Prof. Supriya Sarkar
+        </item>
+    </string-array>
+</resources>

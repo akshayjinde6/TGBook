@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDBDBD"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    tools:context="akshayjinde.tgbook.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="Student Login"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/email_field_stu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round"
+        android:hint="Email Id"
+        android:padding="20dp"
+        android:elevation="5dp"
+        android:translationZ="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/pass_field_stu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round"
+        android:hint="Password"
+        android:elevation="5dp"
+        android:translationZ="5dp"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/login_button_stu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round"
+        android:backgroundTint="#424242"
+        android:padding="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Login"
+        android:elevation="5dp"
+        android:translationZ="5dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/signup_text_stu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Student ! Sign Up Here"
+        android:textSize="18sp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/tg_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round"
+        android:elevation="5dp"
+        android:translationZ="5dp"
+        android:backgroundTint="#424242"
+        android:padding="20dp"
+        android:layout_marginTop="30dp"
+        android:text="TG Login"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"/>
+</LinearLayout>

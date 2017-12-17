@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BDBDBD"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        tools:context="akshayjinde.tgbook.stu_signup">
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="SignUp"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="Full Name :"
+            android:textSize="15sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationZ="5dp"
+            android:background="@drawable/round"
+            android:elevation="5dp">
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:padding="15dp" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="Email Id :"
+            android:textSize="15sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationZ="5dp"
+            android:background="@drawable/round"
+            android:elevation="5dp">
+
+        <EditText
+            android:id="@+id/email_field"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round"
+            android:hint="Email Id"
+            android:maxLines="1"
+            android:padding="15dp" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="Roll No. :"
+            android:textSize="15sp" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationZ="5dp"
+            android:background="@drawable/round"
+            android:elevation="5dp">
+
+        <EditText
+            android:id="@+id/roll_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round"
+            android:hint="Roll Number"
+            android:maxLines="1"
+            android:maxLength="2"
+            android:inputType="number"
+            android:padding="15dp" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="PRN No :"
+            android:textSize="15sp" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationZ="5dp"
+            android:background="@drawable/round"
+            android:elevation="5dp">
+
+        <EditText
+            android:id="@+id/prn_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round"
+            android:hint="PRN No."
+            android:maxLines="1"
+            android:maxLength="9"
+            android:padding="15dp" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="Class :"
+            android:textSize="15sp" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationZ="5dp"
+            android:background="@drawable/round"
+            android:elevation="5dp">
+
+        <Spinner
+            android:id="@+id/stu_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/stu_class"
+            android:padding="15dp"
+            android:background="@drawable/round"/>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="Division :"
+            android:textSize="15sp" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationZ="5dp"
+            android:background="@drawable/round"
+            android:elevation="5dp">
+
+        <Spinner
+            android:id="@+id/stu_div"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/stu_div"
+            android:padding="15dp"
+            android:background="@drawable/round"/>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="Teacher Guardian :"
+            android:textSize="15sp" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationZ="5dp"
+            android:background="@drawable/round"
+            android:elevation="5dp">
+
+            <Spinner
+                android:id="@+id/stu_tg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/stu_tg"
+                android:padding="15dp"
+                android:background="@drawable/round"/>
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="Student Mobile No :"
+            android:textSize="15sp" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationZ="5dp"
+            android:background="@drawable/round"
+            android:elevation="5dp">
+
+        <EditText
+            android:id="@+id/s_mobile"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:hint="Student's Mobile Number"
+            android:padding="15dp" />
+        </FrameLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="Parent Mobile No :"
+            android:textSize="15sp" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationZ="5dp"
+            android:background="@drawable/round"
+            android:elevation="5dp">
+
+        <EditText
+            android:id="@+id/p_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round"
+            android:maxLength="10"
+            android:inputType="number"
+            android:maxLines="1"
+            android:hint="Parent's Mobile Number"
+            android:padding="15dp" />
+        </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="5dp"
+                android:text="Date Of Birth :"
+                android:textSize="15sp" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationZ="5dp"
+            android:background="@drawable/round"
+            android:elevation="5dp">
+
+            <EditText
+                android:id="@+id/dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round"
+                android:drawableRight="@drawable/ic_event_black_24dp"
+                android:hint="Date Of Birth"
+                android:maxLength="10"
+                android:focusable="false"
+                android:maxLines="1"
+                android:padding="15dp" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="Aadhar Card No :"
+            android:textSize="15sp" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationZ="5dp"
+            android:background="@drawable/round"
+            android:elevation="5dp">
+
+        <EditText
+            android:id="@+id/adhar_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round"
+            android:hint="Aadhar Card No."
+            android:maxLength="12"
+            android:inputType="number"
+            android:maxLines="1"
+            android:padding="15dp" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="Password :"
+            android:textSize="15sp" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationZ="5dp"
+            android:background="@drawable/round"
+            android:elevation="5dp">
+
+        <EditText
+            android:id="@+id/pass_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round"
+            android:hint="Password"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:padding="15dp" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/sign_button_stu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:elevation="5dp"
+            android:translationZ="5dp"
+            android:background="@drawable/round"
+            android:backgroundTint="#424242"
+            android:padding="20dp"
+            android:text="Sign Up"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/signin_text_stu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="Already Registred ! Sign In Here"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</ScrollView>

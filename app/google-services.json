@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1091638055856",
+    "firebase_url": "https://tgbook-7b8d0.firebaseio.com",
+    "project_id": "tgbook-7b8d0",
+    "storage_bucket": "tgbook-7b8d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091638055856:android:143a0092ed408980",
+        "android_client_info": {
+          "package_name": "akshayjinde.tgbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091638055856-uq3fqtpnin6kntd15sv063t2sma6uu7k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "akshayjinde.tgbook",
+            "certificate_hash": "8cc037f8ce1b9456f1fab718f86c586418ffa776"
+          }
+        },
+        {
+          "client_id": "1091638055856-0ogt8jrfaqictk0f4oh9cqu9m17p6mfe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "akshayjinde.tgbook",
+            "certificate_hash": "c3a6be09628718be67e0d8cb1e6c052adc0c9d1d"
+          }
+        },
+        {
+          "client_id": "1091638055856-oge24vjpv5kn00gud3c5i8hf9sf1mc9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB-sgAXjK0WgTYrNnBsfcggi4YJ84zjeI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091638055856-oge24vjpv5kn00gud3c5i8hf9sf1mc9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
